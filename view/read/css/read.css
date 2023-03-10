@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200 & display = trocar');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigation{
+    width: 90vw;
+    height: 80px;
+    background: #d50998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+a{
+    border: solid 2px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: #7e0059;
+   
+}
+
+a:hover{
+    transition: .5s ease-in-out;
+    color: rgba(255, 255, 255,1);
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    gap: 50px;
+    border-radius: 15px;
+    background: #7e0059;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-weight:500 ;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 85px;
+    font-size: 1.5em;
+    transition: .5s;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+}   
+
+
+
+
+.navigation ul li a .icon{
+    color: #ffff;
+}
+
+.edit{
+    display: flex;
+    gap: 5px;
+}
+
+.edit a{
+    text-decoration: none;
+}
+
+table{
+    margin-top: 8px;
+    border: solid;
+}
+
+table tbody tr td a{
+    border: none;
+}
